@@ -7,10 +7,10 @@ echo "Listing VSCode extensions as configure works only after initial run"
 
 while read -r line || [[ -n "$line" ]];do
 	code --install-extension $line	
-done < ../VSCode-Config/vscode-extensions
+done < VSCode-Config/vscode-extensions
 
 # Change settings.json to preffered settings
 
-cp ../VSCode-Config/settings.json ~/.config/Code/User/
+cp VSCode-Config/settings.json ~/.config/Code/User/
 
 
