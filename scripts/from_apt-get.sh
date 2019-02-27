@@ -46,3 +46,9 @@ apt-get update -y
 apt-get install vagrant -y
 rm -rf /etc/apt/sources.list.d/wolfgang42-vagrant.list*
 apt-get update -y
+
+# Writing App
+
+add-apt-repository ppa:wereturtle/ppa
+apt-get update
+apt-get install ghostwriter
