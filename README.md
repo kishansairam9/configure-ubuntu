@@ -63,3 +63,4 @@ chmod u+x ./store-vscode-config.sh
 - Add installation by downloading debian package from github repo's releases
 - Add script to download Vagrant from Official site, not the unofficial PPA (if possible)
 - Use the official PPA mentioned on VirtualBox site instead of using the apt's virtualbox, as it is mostly outdated and it is possible to get updates using official PPA
+- Add installation of Pandoc

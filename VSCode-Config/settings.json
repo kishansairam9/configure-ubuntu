@@ -12,5 +12,9 @@
     "editor.wordWrap": "on",
     "terminal.integrated.rendererType": "dom",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "markdown-pdf.displayHeaderFooter": false
 }
