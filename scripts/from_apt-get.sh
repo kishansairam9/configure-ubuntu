@@ -49,6 +49,10 @@ apt-get update -y
 
 # Writing App
 
-add-apt-repository ppa:wereturtle/ppa
-apt-get update
-apt-get install ghostwriter
+add-apt-repository ppa:wereturtle/ppa -y
+apt-get update -y
+apt-get install ghostwriter -y
+
+# Note taking Desktop App
+
+apt install xpad -y
