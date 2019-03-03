@@ -20,6 +20,9 @@ echo
 echo "->) To import VSCode Configurations, run VSCode once wait till it opens and then close it. Then run configure-vscode.sh from repo's directory to import VSCode Settings"
 
 echo "Aliasing atom to vim and vi now"
-echo "alias vim='atom'" >> ~/.bashrc
-echo "alias vi='atom'" >> ~/.bashrc
+echo "alias vim='code'" >> ~/.bashrc
+echo "alias vi='code'" >> ~/.bashrc
+
 echo "Wakatime cli is installed configure it by using wakatime -api yourApiKeyHere and for more details visit https://www.npmjs.com/package/wakatimecli"
+
+echo "Install Microsoft Corefonts by accepting the liscence and run 'install-ms-fonts.sh' as sudo"
