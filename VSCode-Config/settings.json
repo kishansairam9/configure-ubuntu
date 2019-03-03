@@ -13,8 +13,9 @@
     "terminal.integrated.rendererType": "dom",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
-    "markdown-pdf.displayHeaderFooter": false
+    "markdown-pdf.displayHeaderFooter": false,
+    "window.menuBarVisibility": "toggle",
+    "window.openFilesInNewWindow": "default",
+    "workbench.activityBar.visible": false
 }
