@@ -8,8 +8,6 @@
 #echo
 #echo "   Visit https://github.com/skilion/onedrive to know about onedrive client"
 echo
-echo "->) Visit https://extensions.gnome.org/extension/1162/emoji-selector/ and install emoji extension"
-echo
 echo "->) Gestures are installed and should work perfectly fine once you restart/ logout & login back."
 echo
 echo "The gestures configuration is"

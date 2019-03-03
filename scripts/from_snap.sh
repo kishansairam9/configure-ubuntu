@@ -2,7 +2,6 @@
 
 # To be run as sudo
 
-snap install atom --classic
 snap install vscode --classic
 snap install node --channel=11/stable --classic
 snap install ruby --classic

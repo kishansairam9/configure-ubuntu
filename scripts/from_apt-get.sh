@@ -22,6 +22,7 @@ apt-get install chrome-gnome-shell
 
 apt-get install snapd -y
 apt-get install vim -y
+apt-get install fonts-hack-ttf -y # Font needed for VSCode
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome Installation
 dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
