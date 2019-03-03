@@ -17,5 +17,9 @@
     "markdown-pdf.displayHeaderFooter": false,
     "window.menuBarVisibility": "toggle",
     "window.openFilesInNewWindow": "default",
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "sync.gist": "429f5af6538db1b5fa674886179aa89d",
+    "sync.askGistName": true,
+    "sync.quietSync": true,
+    "sync.autoUpload": true
 }
