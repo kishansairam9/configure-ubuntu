@@ -18,3 +18,5 @@ echo
 echo "If you logout and login and still gestures did not work, run fusuma -d, check if gestures are working. If you get touchpad not found run 'sudo gpasswd -a $USER input'"
 echo 
 echo "->) To import VSCode Configurations, run VSCode once wait till it opens and then close it. Then run configure-vscode.sh from repo's directory to import VSCode Settings"
+
+echo "Wakatime cli is installed configure it by using wakatime -api yourApiKeyHere and for more details visit https://www.npmjs.com/package/wakatimecli"

@@ -49,3 +49,6 @@ apt-get update -y
 apt-get install vagrant -y
 rm -rf /etc/apt/sources.list.d/wolfgang42-vagrant.list*
 apt-get update -y
+
+# Installation of wakatime client from terminal
+npm install -g wakatimecli
