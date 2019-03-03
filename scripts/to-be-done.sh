@@ -17,7 +17,10 @@ echo "If you logout and login and still gestures did not work, run fusuma -d, ch
 echo
 echo "->) To import VSCode Configurations, run VSCode once wait till it opens and then close it. Then run configure-vscode.sh from repo's directory to import VSCode Settings"
 
-echo "Aliasing atom to vim and vi now"
+echo "Aliasing code to vim and vi now and also gdb -q to gdb, gcc/g++ -w to gcc/g++"
+echo "alias gcc='gcc -w'" >> ~/.bashrc
+echo "alias g++='gcc -w'" >> ~/.bashrc
+echo "alias gdb='gdb -q'" >> ~/.bashrc
 echo "alias vim='code'" >> ~/.bashrc
 echo "alias vi='code'" >> ~/.bashrc
 
