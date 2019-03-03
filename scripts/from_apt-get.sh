@@ -22,6 +22,9 @@ apt-get install chrome-gnome-shell
 
 apt-get install snapd -y
 apt-get install vim -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome Installation
+dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 # apt-get install variety  -y # Wallpaper Changer for linux
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  -y
 apt-get update -y && apt-get install qbittorrent -y
@@ -46,13 +49,3 @@ apt-get update -y
 apt-get install vagrant -y
 rm -rf /etc/apt/sources.list.d/wolfgang42-vagrant.list*
 apt-get update -y
-
-# Writing App
-
-add-apt-repository ppa:wereturtle/ppa -y
-apt-get update -y
-apt-get install ghostwriter -y
-
-# Note taking Desktop App
-
-apt install xpad -y
