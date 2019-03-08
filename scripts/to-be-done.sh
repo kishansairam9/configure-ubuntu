@@ -21,8 +21,6 @@ echo "Aliasing code to vim and vi now and also gdb -q to gdb, gcc/g++ -w to gcc/
 echo "alias gcc='gcc -w'" >> ~/.bashrc
 echo "alias g++='gcc -w'" >> ~/.bashrc
 echo "alias gdb='gdb -q'" >> ~/.bashrc
-echo "alias vim='code'" >> ~/.bashrc
-echo "alias vi='code'" >> ~/.bashrc
 
 echo "Wakatime cli is installed configure it by using wakatime -api yourApiKeyHere and for more details visit https://www.npmjs.com/package/wakatimecli"
 
