@@ -30,7 +30,6 @@ rm google-chrome-stable_current_amd64.deb
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  -y
 apt-get update -y && apt-get install qbittorrent -y
 apt-get install gcc g++ -y
-apt-get install clang clang-format -y
 
 # Java Installation OpenJDK
 
@@ -39,17 +38,9 @@ echo "JAVA_HOME=\"/usr/lib/jvm/java-11-openjdk-amd64/bin/\"" >> /etc/environment
 
 # Virtual Box installation
 
-apt install virtualbox -y
-apt install virtualbox-qt -y
-
-# Vagrant installation # Using Unofficial Repo
-
-bash -c 'echo deb https://vagrant-deb.linestarve.com/ any main > /etc/apt/sources.list.d/wolfgang42-vagrant.list'
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key AD319E0F7CFFA38B4D9F6E55CE3F3DE92099F7A4 -y
-apt-get update -y
-apt-get install vagrant -y
-rm -rf /etc/apt/sources.list.d/wolfgang42-vagrant.list*
-apt-get update -y
-
-# Installation of wakatime client from terminal
-npm install -g wakatimecli
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+### Ubuntu 18.04 ### 
+echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+### Ubuntu 18.10 ## # echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian cosmic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+### Ubuntu 16.04 ### # echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib"  | sudo tee /etc/apt/sources.list.d/virtualbox.list
+sudo apt-get -y install virtualbox-6.0
