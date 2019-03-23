@@ -7,8 +7,6 @@ ms-vscode.cpptools
 ms-vscode.Go
 redhat.java
 ritwickdey.LiveServer
-robertohuertasm.vscode-icons
-Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
@@ -16,7 +14,6 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
-WakaTime.vscode-wakatime
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
 zhuangtongfa.Material-theme
