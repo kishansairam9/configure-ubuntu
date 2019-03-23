@@ -32,6 +32,11 @@ add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  -y
 apt-get update -y && apt-get install qbittorrent -y
 apt-get install gcc g++ -y
 
+# Installation of bluetooth for headphones
+
+apt-get install bluetooth
+systemctl restart bluetooth
+
 # Java Installation OpenJDK
 
 apt install openjdk-11-jdk -y
