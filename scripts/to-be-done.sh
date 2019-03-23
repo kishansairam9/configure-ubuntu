@@ -23,3 +23,7 @@ echo "alias g++='g++ -w'" >> ~/.bashrc
 echo "alias gdb='gdb -q'" >> ~/.bashrc
 echo "Install vagrant by downloading latest release from their webiste https://www.vagrantup.com/downloads.html"
 echo "Run sudo tlp start , sudo powertop , sudo powertop --auto-tune for power optimizations"
+tlp start
+powertop --auto-tune
+echo "Removing ubuntu-dock restart to see effect"
+apt remove gnome-shell-extension-ubuntu-dock
