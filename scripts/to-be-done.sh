@@ -22,3 +22,4 @@ echo "alias gcc='gcc -w'" >> ~/.bashrc
 echo "alias g++='g++ -w'" >> ~/.bashrc
 echo "alias gdb='gdb -q'" >> ~/.bashrc
 echo "Install vagrant by downloading latest release from their webiste https://www.vagrantup.com/downloads.html"
+echo "Run sudo tlp start , sudo powertop , sudo powertop --auto-tune for power optimizations"

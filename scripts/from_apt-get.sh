@@ -26,6 +26,7 @@ apt-get install fonts-hack-ttf -y # Font needed for VSCode
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome Installation
 dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
+apt-get install ruby gem -y
 # apt-get install variety  -y # Wallpaper Changer for linux
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  -y
 apt-get update -y && apt-get install qbittorrent -y
