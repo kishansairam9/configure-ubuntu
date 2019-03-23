@@ -19,5 +19,3 @@ clear
 echo "To be Done"
 chmod u+x ./scripts/to-be-done.sh
 ./scripts/to-be-done.sh
-echo "Making configure-vscode.sh executable, follow 5th instruction"
-chmod u+x ./scripts/configure-vscode.sh

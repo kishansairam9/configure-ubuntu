@@ -19,9 +19,6 @@ echo "->) To import VSCode Configurations, run VSCode once wait till it opens an
 
 echo "Aliasing code to vim and vi now and also gdb -q to gdb, gcc/g++ -w to gcc/g++"
 echo "alias gcc='gcc -w'" >> ~/.bashrc
-echo "alias g++='gcc -w'" >> ~/.bashrc
+echo "alias g++='g++ -w'" >> ~/.bashrc
 echo "alias gdb='gdb -q'" >> ~/.bashrc
-
-echo "Wakatime cli is installed configure it by using wakatime -api yourApiKeyHere and for more details visit https://www.npmjs.com/package/wakatimecli"
-
-echo "Install Microsoft Corefonts by accepting the liscence and run 'install-ms-fonts.sh' as sudo"
+echo "Install vagrant by downloading latest release from their webiste https://www.vagrantup.com/downloads.html"
