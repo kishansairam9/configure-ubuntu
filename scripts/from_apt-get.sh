@@ -39,8 +39,7 @@ echo "JAVA_HOME=\"/usr/lib/jvm/java-11-openjdk-amd64/bin/\"" >> /etc/environment
 # Virtual Box installation
 
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-### Ubuntu 18.04 ### 
-echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-### Ubuntu 18.10 ## # echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian cosmic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-### Ubuntu 16.04 ### # echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib"  | sudo tee /etc/apt/sources.list.d/virtualbox.list
-sudo apt-get -y install virtualbox-6.0
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
+sudo apt-get update
+sudo apt-get -y install virtualbox-6.0 -y
