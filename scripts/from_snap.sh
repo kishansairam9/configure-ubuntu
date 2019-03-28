@@ -7,7 +7,7 @@ snap install node --channel=11/stable --classic
 #snap install ruby --classic
 snap install go --classic
 snap install vlc
-snap install gimp
+#snap install gimp
 
 # Docker Installation
 

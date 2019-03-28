@@ -22,7 +22,6 @@ apt-get install chrome-gnome-shell
 
 apt-get install snapd -y
 apt-get install vim -y
-apt-get install fonts-hack-ttf -y # Font needed for VSCode
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome Installation
 dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
@@ -44,8 +43,8 @@ echo "JAVA_HOME=\"/usr/lib/jvm/java-11-openjdk-amd64/bin/\"" >> /etc/environment
 
 # Virtual Box installation
 
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
-sudo apt-get update
-sudo apt-get -y install virtualbox-6.0 -y
+#wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+#wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+#sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
+#sudo apt-get update
+#sudo apt-get -y install virtualbox-6.0 -y

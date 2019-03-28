@@ -9,9 +9,9 @@ chmod u+x ./scripts/from_snap.sh
 ./scripts/from_snap.sh
 clear
 echo "Installing Multi-Touch Gestures"
-chmod u+x ./scripts/multitouch-gestures.sh
-./scripts/multitouch-gestures.sh
-clear
+#chmod u+x ./scripts/multitouch-gestures.sh
+#./scripts/multitouch-gestures.sh
+#clear
 #echo "Installing OneDrive"
 #chmod u+x ./scripts/onedrive-install.sh
 #./scripts/onedrive-install.sh

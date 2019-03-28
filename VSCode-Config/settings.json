@@ -1,7 +1,6 @@
 {
     "workbench.colorTheme": "One Dark Pro",
     "java.home": "/usr/lib/jvm/java-11-openjdk-amd64/",
-    "editor.fontFamily": "'Hack', 'monospace'",
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
@@ -13,9 +12,5 @@
     "markdown-pdf.displayHeaderFooter": false,
     "window.menuBarVisibility": "toggle",
     "window.openFilesInNewWindow": "default",
-    "git.autofetch": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "python.linting.pylintEnabled": true,
+    "git.autofetch": true
 }
