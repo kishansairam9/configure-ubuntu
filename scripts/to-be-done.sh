@@ -25,5 +25,6 @@ echo "Install vagrant by downloading latest release from their webiste https://w
 echo "Run sudo tlp start , sudo powertop , sudo powertop --auto-tune for power optimizations"
 tlp start
 powertop --auto-tune
+echo "Install the following gnome extensions for better workspace experience https://extensions.gnome.org/extension/21/workspace-indicator/  https://extensions.gnome.org/extension/484/workspace-grid/"
 #echo "Removing ubuntu-dock restart to see effect"
 #apt remove gnome-shell-extension-ubuntu-dock
