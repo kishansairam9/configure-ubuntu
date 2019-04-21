@@ -14,9 +14,9 @@ powertop --auto-tune
 
 # Themes & tweaking
 
-apt-get install gnome-tweak-tool -y
-apt install gnome-shell-extensions -y
-apt-get install chrome-gnome-shell
+#apt-get install gnome-tweak-tool -y
+#apt install gnome-shell-extensions -y
+#apt-get install chrome-gnome-shell
 
 # Common things
 
@@ -37,8 +37,8 @@ systemctl restart bluetooth
 
 # Java Installation OpenJDK
 
-apt install openjdk-11-jdk -y
-echo "JAVA_HOME=\"/usr/lib/jvm/java-11-openjdk-amd64/bin/\"" >> /etc/environment
+#apt install openjdk-11-jdk -y
+#echo "JAVA_HOME=\"/usr/lib/jvm/java-11-openjdk-amd64/bin/\"" >> /etc/environment
 
 # Virtual Box installation
 
