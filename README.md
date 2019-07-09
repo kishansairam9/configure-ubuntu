@@ -19,10 +19,10 @@
 3. Run it as sudo `sudo ./install.sh`
 
 ```bash
-git clone https://github.com/kishansairam9/ubuntu-setup-scripts.git
+git clone https://github.com/kishansairam9/configure-ubuntu.git
 # For clone using ssh
-# git clone git@github.com:kishansairam9/ubuntu-setup-scripts.git
-cd ubuntu-setup-scripts
+# git clone git@github.com:kishansairam9/configure-ubuntu.git
+cd configure-ubuntu
 chmod u+x ./install.sh
 sudo ./install.sh
 ```
@@ -37,10 +37,10 @@ sudo ./install.sh
 
 ```bash
 # If you havent cloned repo then uncomment required lines
-# git clone https://github.com/kishansairam9/ubuntu-setup-scripts.git
+# git clone https://github.com/kishansairam9/configure-ubuntu.git
 # For clone using ssh
-# git clone git@github.com:kishansairam9/ubuntu-setup-scripts.git
-# cd ubuntu-setup-scripts
+# git clone git@github.com:kishansairam9/configure-ubuntu.git
+# cd configure-ubuntu
 chmod u+x ./store-vscode-config.sh
 ./store-vscode-config.sh
 ```
@@ -57,10 +57,3 @@ chmod u+x ./store-vscode-config.sh
 
 1. Extensions : Run `code --list-extensions` in terminal (Mac) / CMD (Win) and overwrite contents of [vscode-extensions](./VSCode-Config/vscode-extensions.txt) with the output you get by running that command.
 2. Open VSCode and go to Settings ( Ctrl + , ) and Click the Icon { } on top right corner. Copy all the contents under USER SETTINGS and replace the contents of [settings](./VSCode-Config/settings.json) file VSCode Config Folder with copied contents.
-
-## To Do
-
-- Add installation by downloading debian package from github repo's releases
-- Add script to download Vagrant from Official site, not the unofficial PPA (if possible)
-- Use the official PPA mentioned on VirtualBox site instead of using the apt's virtualbox, as it is mostly outdated and it is possible to get updates using official PPA
-- Add installation of Pandoc
