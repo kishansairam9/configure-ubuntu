@@ -30,6 +30,11 @@ add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  -y
 apt-get update -y && apt-get install qbittorrent -y
 apt-get install gcc g++ -y
 
+# Install Ruby for multi-touch gestures
+
+apt-get install ruby -y
+
+
 # Installation of bluetooth for headphones
 
 apt-get install bluetooth
