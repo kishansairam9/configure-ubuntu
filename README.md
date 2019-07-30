@@ -7,12 +7,11 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Installation](#installation)
+- [Multi Touch Gestures](#multi-touch-gestures)
 - [Store VSCode's Current Settings into Repo](#store-vscodes-current-settings-into-repo)
 - [Getting existing Extensions & Settings of VSCode into repo](#getting-existing-extensions--settings-of-vscode-into-repo)
   - [Linux](#linux)
   - [Windows / Mac / Linux](#windows--mac--linux)
-- [To Do](#to-do)
-
 ## Installation
 
 1. Clone the repo and `cd` into it
@@ -24,9 +23,22 @@ git clone https://github.com/kishansairam9/configure-ubuntu.git
 # For clone using ssh
 # git clone git@github.com:kishansairam9/configure-ubuntu.git
 cd configure-ubuntu
-chmod u+x ./install.sh
+chmod +x ./install.sh
 sudo ./install.sh
 ```
+
+## Multi Touch Gestures
+
+| Multi-touch Gesture | Action |
+| --- | --- |
+| 3 Fingers - Left | Go Next on Browser |
+| 3 Fingers - Right | Go Back on Browser |
+| 3 Fingers - Up | Show all Windows|
+| 3 Fingers - Down | Close Overview / Apps |
+| 4 Fingers - Left | Show Apps |
+| 4 Fingers - Right | Show Apps |
+| 4 Fingers - Up | Next Desktop|
+| 4 Fingers - Down | Previous Desktop| 
 
 ## Store VSCode's Current Settings into Repo
 
@@ -42,7 +54,7 @@ sudo ./install.sh
 # For clone using ssh
 # git clone git@github.com:kishansairam9/configure-ubuntu.git
 # cd configure-ubuntu
-chmod u+x ./store-vscode-config.sh
+chmod +x ./store-vscode-config.sh
 ./store-vscode-config.sh
 ```
 
