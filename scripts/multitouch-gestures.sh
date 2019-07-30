@@ -4,7 +4,7 @@
 
 # Reference https://askubuntu.com/a/1044184 && https://github.com/iberianpig/fusuma
 
-# Must have ruby installed, run from_snap.sh before this
+# Must have ruby installed, run from_apt.sh before this
 # After running script, and trying to run fusuma, if fusuma not found is comming as error, try installing ruby from apt
 
 apt-get install libinput-tools -y 
