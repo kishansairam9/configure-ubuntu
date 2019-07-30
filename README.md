@@ -1,6 +1,7 @@
 # Ubuntu Configure Scripts <!-- omit in toc -->
 
 - ~~These Scripts configure Ubuntu to my personalized preferences.~~ Contains onceup on a time installation scripts, I switched to macOS.
+- **Some installations are commented out, if you need them, enable them by uncommenting them after clone**
 - These scripts are hardcoded to work without any need of intervention (except for some things, [this](./scripts/to-be-done.sh) script tells you those)
 
 ## Table of Contents <!-- omit in toc -->
